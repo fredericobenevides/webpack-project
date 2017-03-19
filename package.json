@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "extract-text-webpack-plugin": "^2.1.0",
     "webpack": "^2.2.1"
   },
   "devDependencies": {
