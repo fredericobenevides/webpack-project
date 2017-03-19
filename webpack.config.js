@@ -18,9 +18,7 @@ module.exports = {
             presets: 'env'
           }
         }
-      }
-    ],
-    rules: [
+      },
       {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
