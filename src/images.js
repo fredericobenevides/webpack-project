@@ -3,8 +3,9 @@ import big from '../assets/big.jpeg';
 
 const br = document.createElement('br');
 
-const image = document.createElement('img');
+let image = document.createElement('img');
 image.src = small;
+document.body.appendChild(br);
 document.body.appendChild(image);
 document.body.appendChild(br);
 
