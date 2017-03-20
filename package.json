@@ -15,11 +15,13 @@
     "image-webpack-loader": "^3.2.0",
     "rimraf": "^2.6.1",
     "style-loader": "^0.14.1",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
   },
   "scripts": {
     "clear": "rimraf dist",
-    "build": "npm run clear && webpack"
+    "build": "npm run clear && webpack",
+    "serve": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC"
